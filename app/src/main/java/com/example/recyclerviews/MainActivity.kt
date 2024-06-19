@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             "universe","valon", "wanja","xoza","yiamat","zash")
 
         binding.rvNames.layoutManager = LinearLayoutManager(this)
-        val namesAdapter = NamesRecyclerViewAdapter(names)
+        val namesAdapter =NamesRecyclerViewAdapter(names)
         binding.rvNames.adapter= namesAdapter
     }
 }
